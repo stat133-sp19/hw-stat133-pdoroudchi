@@ -1,0 +1,83 @@
+---
+title: "Warmup 1 by Pedram Doroudchi"
+output: github_document
+---
+## Kazuda Xiono
+
+![https://vignette.wikia.nocookie.net/starwars/images/a/a3/Kazuda.jpg/revision/latest?cb=20180830051228](https://vignette.wikia.nocookie.net/starwars/images/a/a3/Kazuda.jpg/revision/latest?cb=20180830051228)
+
+A famous quote by Kazuda Xiono:
+
+> In my mind, that's what I was—Kazuda Xiono, the best starfighter pilot in the galaxy.
+
+| Description | Value |
+| ----------- | ----- |
+| Species     | Human |
+| Gender      | Male  |
+| Hair color  | Black |
+| Eye color   | Brown |
+| Skin color  | Light |
+
+Can't get enough Star Wars? Check out the [Star Wars Wiki](https://starwars.fandom.com/wiki/Main_Page). As Yoda once said:
+
+> Do or do not. There is no try.
+
+---
+
+## Watermelon Cucumber Salad Recipe
+
+**Ingredients:**
+
+* About 1/4 a large seedless watermelon or 1 small (mini) watermelon
+* 2 small (Perisan-style) seedless cucumber, thinly sliced
+* 8 ounces ricotta salata, cut into matchsticks
+* 1/4 cup toasted, salted pepitas (hulled pumpkin seeds)
+* Olive oil, for drizzling
+* Sea salt and freshly ground black pepper
+
+_Special_ kitchen tools:
+
+* Large platter
+
+**Steps:**
+
+1. For small watermelon, halve it and then place each half cut side down and cut each half into 8 pie-like slices
+2. Remove the rinds from each and cut each wedge into 1/2-inch thick triangles  
+3. On a large platter, scatter a thick layer of watermelon triangles, followed by a thinner scattering of cucumbers, ricotta salata matchsticks and pepitas
+4. Drizzle lightly with olive oil and season with salt and pepper
+5. Repeat this rustic layering and seasoning until your ingredients are used up, finishing with an extra generous drizzle of olive oil
+6. Eat at once!
+
+![https://smittenkitchendotcom.files.wordpress.com/2018/06/watermelon-and-cucumber-salad.jpg?w=1500](https://smittenkitchendotcom.files.wordpress.com/2018/06/watermelon-and-cucumber-salad.jpg?w=1500)
+
+This easy recipe is ideal for the warmest of summer days!
+
+Here are a few subtle variations one could make:
+
+* Add some fresh slivered mint leaves and/or razor-thin slivers of red onion
+* Substitute the ricotta salata machsticks with crumbled feta cheese
+
+---
+
+## Euclidean Distance
+
+#### Definition [edit]
+
+---
+
+The **Euclidean Distance** between points **p** and **q** is the length of the line segment connecting them \(\mathbf{\overline{pq}}\).
+
+In Cartesian coordinates, if \(\mathbf{p} = (p_1, p_2, ... , p_n)\) and \(\mathbf{q} = ( q_1, q_2,..., q_n)\) are two points in Euclidean *n*-space, then the distance (d) from **p** to **q**, or from **q** to **p** is given by the Pythagorean formula:
+
+\[ \begin{equation}
+\begin{split}
+\mathit{d}(\mathbf{p, q}) = \mathit{d}(\mathbf{q, p}) & = \sqrt{(q_1 - p_1)^2 + (q_2 - p_2)^2 + ... + (q_n - p_n)^2} \\
+ & = \sqrt{\displaystyle\sum_{i=1}^{n} (q_i - p_i)^2}.
+\end{split}
+\end{equation} \]
+
+The position of a point in a Euclidean *n*-space is a Euclidean vector. So, **p** and **q** may be represented as Euclidean vectors, starting from the origin of the space (initial point) with their tips (terminal points) ending at the two points. The **Euclidean norm**, or **Euclidean length**, or **magnitude** of a vector measures the length of the vector:
+
+\[ \| p \| = \sqrt{p_1^2 + p_2^2 + ... + p_n^2} = \sqrt{\mathbf{p \cdot p}}, \]
+
+where the last expression involves the dot product.
