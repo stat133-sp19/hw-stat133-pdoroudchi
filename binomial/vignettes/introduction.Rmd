@@ -1,0 +1,113 @@
+---
+title: "Introduction to binomial"
+author: Pedram Doroudchi
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to binomial}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+
+library(binomial)
+```
+
+## binomial
+
+The package `"binomial"` provides useful tools for computing and vizualizing a Binomial distribution given a certain number of trials and probability value.  
+
+### Getting basic statistics from a binomial distribution
+
+Finding the number of combinations in which *k* successes can occur in *n* trials:  
+
+```{r}
+combinations <- bin_choose(n = 5, k = 2)
+combinations
+```
+
+Calculate the probability of getting *k* successes in *n* trials assuming a specified probability *p*:  
+
+```{r}
+prob <- bin_probability(success = 2, trials = 5, prob = 0.5)
+prob
+```
+
+Compute the expected value, or the expected number of successes in n trials:  
+
+```{r}
+mean <- bin_mean(trials = 10, prob = 0.3)
+mean
+```
+
+Compute the expectation of the squared deviation from the mean:
+
+```{r}
+var <- bin_variance(trials = 10, prob = 0.3)
+var
+```
+
+Compute the most likely number of success in *n* independent trials with probability *p*:  
+
+```{r}
+mode <- bin_mode(trials = 10, prob = 0.3)
+mode
+```
+
+Calculate the asymmetry of the probabiltiy distribution about its mean:  
+
+```{r}
+skew <- bin_skewness(trials = 10, prob = 0.3)
+skew
+```
+
+Calculate the "tailedness", or shape, of the probability distribution:  
+
+```{r}
+kurtosis <- bin_kurtosis(trials = 10, prob = 0.3)
+kurtosis
+```
+
+### Getting a list of statistics
+
+Print a binomial random variable list displaying the number of trials and probability of success:  
+
+```{r}
+bin1 <- bin_variable(10, 0.3)
+bin1
+
+# use summary() to print additional summary statistics such as mean, variance, etc.
+
+binsum1 <- summary(bin1)
+binsum1
+```
+
+### Tabular data and plotting options
+
+Values of a probability distribution in data frame format:  
+
+```{r}
+dis1 <- bin_distribution(5, 0.5)
+dis1
+
+# plot probability histogram of binomial distribution
+
+plot(dis1)
+```
+
+Calculate additional cumulative probabilties into data frame:  
+
+```{r}
+dis2 <- bin_cumulative(5, 0.5)
+dis2
+
+# plot cumulative distribution
+
+plot(dis2)
+```
+

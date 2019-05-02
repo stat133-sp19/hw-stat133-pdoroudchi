@@ -1,0 +1,22 @@
+Package: binomial
+Type: Package
+Title: Calculation and vizualization tools for a Binomial distribution
+Version: 0.1.0
+Author: Pedram Doroudchi
+Maintainer: Pedram Doroudchi <pdoroudchi@berkeley.edu>
+Description: Implements helpful tools for computing
+    probabilties of a Binomial random variable,
+    while also supplying calculations for
+    additional measures such as mean, variance,
+    mode, etc.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown
+RoxygenNote: 6.1.1
+Imports: 
+    ggplot2
+VignetteBuilder: knitr
