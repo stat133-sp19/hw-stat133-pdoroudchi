@@ -1,6 +1,6 @@
 ## Description
 
-We begin workout 01 by downloading five CSV files containing data pertaining to shot attempts made by Andre Iguodala, Draymond Green, Klay Thompson, Kevin Durant, and Stephen Curry of the Golden State Warriors. We manipulate these data frames through R, extract summary statistics, and eventually bind the data frames into one global table in order to create a facetted shot chart to present the data in an accessible and understandable format. Finally, we create an article-style report to explore the statistics and include efficiency shooting percentage tables as well as the facetted shot chart to support our analysis.  
+We begin workout 01 by downloading five CSV files containing data pertaining to shot attempts made by Andre Iguodala, Draymond Green, Klay Thompson, Kevin Durant, and Stephen Curry of the Golden State Warriors. We manipulate these data frames through R, extract summary statistics, and eventually bind the data frames into one global table in order to create a faceted shot chart to present the data in an accessible and understandable format. Finally, we create an article-style report to explore the statistics and include efficiency shooting percentage tables as well as the faceted shot chart to support our analysis.  
 
 ## Motivation
 
